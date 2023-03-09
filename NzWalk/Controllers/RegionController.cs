@@ -44,6 +44,13 @@ namespace NzWalk.Controllers
         [HttpPost]
         public async Task<IActionResult> AddRegionAsync(AddRegionRequest addRegionRequest)
         {
+
+            //Valiade 
+            //if(!ValidateAddRegion(addRegionRequest))
+            //{
+            //    return BadRequest(ModelState);
+            //}
+
             var region = new Models.Domains.Region()
             {
                 Code = addRegionRequest.Code,
@@ -71,5 +78,23 @@ namespace NzWalk.Controllers
             return Ok(region);
 
         }
+        #region PrivateMethods
+        private bool ValidateAddRegion(Models.DTO.AddRegionRequest addRegionRequest)
+        {
+            if (addRegionRequest == null)
+                return false;
+            if(string.IsNullOrEmpty(addRegionRequest.Code))
+            {
+                ModelState.AddModelError(nameof(addRegionRequest.Code), $"{addRegionRequest.Code} invalid");
+            }
+            if (string.IsNullOrEmpty(addRegionRequest.Name))
+            {
+                ModelState.AddModelError(nameof(addRegionRequest.Code), $"{addRegionRequest.Name} invalid");
+            }
+            if (ModelState.ErrorCount > 0)
+                return false;
+            return true;
+        }
+        #endregion
     }
 }

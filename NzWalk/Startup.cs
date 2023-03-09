@@ -1,3 +1,4 @@
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -42,6 +43,8 @@ namespace NzWalk
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "NzWalk", Version = "v1" });
             });
+
+            services.AddFluentValidation(options => options.RegisterValidatorsFromAssemblyContaining<Program>());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

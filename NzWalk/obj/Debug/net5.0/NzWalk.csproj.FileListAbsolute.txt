@@ -65,3 +65,6 @@ C:\Users\Amitesh\source\repos\NzWalk\NzWalk\bin\Debug\net5.0\Microsoft.Extension
 C:\Users\Amitesh\source\repos\NzWalk\NzWalk\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
 C:\Users\Amitesh\source\repos\NzWalk\NzWalk\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Users\Amitesh\source\repos\NzWalk\NzWalk\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Amitesh\source\repos\NzWalk\NzWalk\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\Amitesh\source\repos\NzWalk\NzWalk\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\Amitesh\source\repos\NzWalk\NzWalk\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll

@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Yr8BiFTVQ8W4T5BWtIyHC62SWtWk4W4PqXlzDWTdwx4NkposdvCg1exWFYTjhuDwpH2WsvrRc780kWvGmrmnLA==",
+  "dgSpecHash": "AZ2tUAqozpSfIA38DW3j3QWd1Q7kJXA2IcS0YnVMt/HABQmMiZ3jFXGPA8oJt6OnR4KJRUE3C0YO65iNSP6ncg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Amitesh\\source\\repos\\NzWalk\\NzWalk\\NzWalk.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Amitesh\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Amitesh\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\Amitesh\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\Amitesh\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\Amitesh\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\Amitesh\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Amitesh\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Amitesh\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
