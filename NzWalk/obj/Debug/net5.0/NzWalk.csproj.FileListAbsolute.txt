@@ -22,7 +22,6 @@ C:\Users\Amitesh\source\repos\NzWalk\NzWalk\bin\Debug\net5.0\Microsoft.IdentityM
 C:\Users\Amitesh\source\repos\NzWalk\NzWalk\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Amitesh\source\repos\NzWalk\NzWalk\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Amitesh\source\repos\NzWalk\NzWalk\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\Amitesh\source\repos\NzWalk\NzWalk\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\Amitesh\source\repos\NzWalk\NzWalk\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Amitesh\source\repos\NzWalk\NzWalk\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Amitesh\source\repos\NzWalk\NzWalk\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -68,3 +67,4 @@ C:\Users\Amitesh\source\repos\NzWalk\NzWalk\bin\Debug\net5.0\System.Runtime.Comp
 C:\Users\Amitesh\source\repos\NzWalk\NzWalk\bin\Debug\net5.0\FluentValidation.dll
 C:\Users\Amitesh\source\repos\NzWalk\NzWalk\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
 C:\Users\Amitesh\source\repos\NzWalk\NzWalk\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Amitesh\source\repos\NzWalk\NzWalk\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

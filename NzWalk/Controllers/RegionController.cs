@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using NzWalk.Models.DTO;
 using NzWalk.Repositories;
@@ -11,6 +12,7 @@ namespace NzWalk.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize]
     public class RegionController : Controller
     {
         private readonly IRegionRepository _regionRepository;
@@ -32,6 +34,8 @@ namespace NzWalk.Controllers
         [HttpGet]
         [ActionName("GetRegionAsync")]
         [Route("{id:guid}")]
+        [Authorize(Roles = "reader")]
+
         public async Task<IActionResult> GetRegionAsync(Guid id)
         {
             var region = await _regionRepository.GetAsync(id);
@@ -42,6 +46,7 @@ namespace NzWalk.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "writer")]
         public async Task<IActionResult> AddRegionAsync(AddRegionRequest addRegionRequest)
         {
 

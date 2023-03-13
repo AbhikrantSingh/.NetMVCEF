@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using NzWalk.Models.DTO;
 using NzWalk.Repositories;
@@ -11,6 +12,7 @@ namespace NzWalk.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize]
     public class WalkDifficultyController : Controller
     {
         private readonly IWalkDifficultyRepository _walkDifficultyRepos;
